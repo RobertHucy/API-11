@@ -1,8 +1,8 @@
 import express from "express";      // Requisição do pacote do express
 import dotenv from "dotenv";
+dotenv.config();
 import { selectUsuarios } from "./bd.js"; 
 
-dotenv.config();
 
 const app = express();              // Instancia o Express
 const port = 3000;                  // Define a porta
